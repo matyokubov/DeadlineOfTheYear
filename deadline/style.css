@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    overflow: hidden;
+    background-color: lightslategray;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#percent-box{
+    width: 1000px;
+    background-color: skyblue;
+    padding: 2px 3px;
+    border-radius: 10px;
+    height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+#percent-box #level{
+    width: 0;
+    background-color: teal;
+    border-radius: 10px;
+    height: 1.1rem;
+}
